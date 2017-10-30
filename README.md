@@ -7,5 +7,7 @@ Yet, we have sumbitted the paper into http://arxiv.org/. You can find our work a
 
 There are two functions in files, named as Function_LP.py and Function_YDS.py. The former achieves the YDS algorithm [1], whose time complexity is ![](http://latex.codecogs.com/gif.latex?O(n^3)), even ![](http://latex.codecogs.com/gif.latex?O(n^{2}\\log{n})) with special data structure. The latter achieves building the LP problem module, `Min-Overhead`. It is well to be reminded when ![](http://latex.codecogs.com/gif.latex?\\lambda=0), `Min-Overhead` is equal to `Min-Spectrum-D2D`. 
 
+In addition, you should use `Python2` instead of Python3 due to there are some same operations with different results, such like division of integers.
+
 ## References
 [1] Yao F F, Demers A J, Shenker S, et al. A scheduling model for reduced CPU energy[C]. foundations of computer science, 1995: 374-382.
